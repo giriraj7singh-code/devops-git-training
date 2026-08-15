@@ -1,1 +1,0 @@
-Kubernetes is an orchestration platform
