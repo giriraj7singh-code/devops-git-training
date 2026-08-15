@@ -1,0 +1,7 @@
+Payment API
+Version: 1.0
+
+Endpoints:
+POST /payments
+GET /payments
+GET /payments/{id}
