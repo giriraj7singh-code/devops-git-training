@@ -8,11 +8,17 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                echo 'Running tests'
-            }
+       stage('Test') {
+        steps {
+            echo 'Running tests'
         }
+    }
+
+    stage('Docker Check') {
+        steps {
+            sh 'docker --version'
+        }
+    }
 
         stage('Deploy') {
             steps {
